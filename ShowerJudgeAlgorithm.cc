@@ -8,9 +8,13 @@
 
 #include "Pandora/AlgorithmHeaders.h"
 
+#include "Pandora/AlgorithmTool.h"
+
 #include "ExampleAlgorithms/LArClusterHelper.h"
 
 #include "ExampleAlgorithms/ShowerJudgeAlgorithm.h"
+
+#include<vector>
 
 using namespace pandora;
 using namespace std;
