@@ -92,7 +92,7 @@ void ShowerJudgeAlgorithm::PopulateInformation(ClusterVector &sortedVector, std:
 	  }            
     cout<<"total energy="<<TotalEnergy<<"MeV" <<endl;
     cout<<"length="<<Length<<"cm"<<endl;
-    cout<<"dE/dX="<<TotalEnergy/Length<<endl;
+    cout<<"dE/dX="<<3*TotalEnergy/Length<<endl;
     cout<<"--------------------------------------------------------------------------------"<<endl;
       }
 }
